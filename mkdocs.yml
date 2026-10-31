@@ -1,0 +1,21 @@
+site_name: BHMarketer Trustpilot Removal FAQ Generator
+site_url: https://bhmarketer-trustpilot-faq.readthedocs.io/
+site_description: Check a Trustpilot review against Trustpilot's reporting reasons, score removal eligibility and generate a tailored Trustpilot review removal FAQ.
+site_author: BHMarketer.ai
+repo_url: https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator
+repo_name: bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: deep orange
+  features:
+    - navigation.sections
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md

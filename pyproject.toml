@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhmarketer-trustpilot-faq"
+version = "1.0.0"
+description = "BHMarketer Trustpilot Removal FAQ Generator: scores a Trustpilot review against Trustpilot's reporting reasons and generates a tailored review removal FAQ (Markdown, JSON, FAQPage JSON-LD, HTML)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "BHMarketer.ai" }]
+requires-python = ">=3.8"
+keywords = ["trustpilot", "trustpilot review removal", "review removal", "faq generator", "faq schema", "json-ld", "reputation management", "bhmarketer"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.urls]
+Homepage = "https://bhmarketer.ai/trustpilot-review-removal/"
+Repository = "https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator"
+Documentation = "https://bhmarketer-trustpilot-faq.readthedocs.io"
+
+[project.scripts]
+tp-faq = "trustpilot_faq:main"
+
+[tool.setuptools]
+py-modules = ["trustpilot_faq"]

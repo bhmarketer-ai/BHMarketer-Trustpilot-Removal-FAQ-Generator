@@ -1,0 +1,44 @@
+{
+  "name": "@bhmarketer-ai/trustpilot-removal-faq-generator",
+  "version": "1.0.0",
+  "description": "BHMarketer Trustpilot Removal FAQ Generator: checks a Trustpilot review against Trustpilot's reporting reasons, scores removal eligibility 0 to 100, and generates a tailored Trustpilot review removal FAQ as Markdown, JSON, FAQPage JSON-LD or HTML.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "tp-faq": "dist/index.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "trustpilot",
+    "trustpilot-review-removal",
+    "review-removal",
+    "faq-generator",
+    "faq-schema",
+    "reputation-management",
+    "bhmarketer",
+    "bhmarketer-ai",
+    "json-ld",
+    "orm"
+  ],
+  "homepage": "https://bhmarketer.ai/trustpilot-review-removal/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator/issues"
+  },
+  "author": "BHMarketer.ai",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
