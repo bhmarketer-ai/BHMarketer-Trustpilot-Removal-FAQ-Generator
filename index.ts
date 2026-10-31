@@ -16,7 +16,7 @@
  * Built by BHMarketer.ai (https://bhmarketer.ai). MIT License.
  */
 
-export const VERSION = "1.0.0";
+export const VERSION = "1.0.1";
 export const WEBSITE = "https://bhmarketer.ai";
 export const SERVICE_PAGE = "https://bhmarketer.ai/trustpilot-review-removal/";
 export const REPO = "https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator";
