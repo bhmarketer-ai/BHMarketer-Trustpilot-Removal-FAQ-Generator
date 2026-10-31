@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@bhmarketer-ai/trustpilot-removal-faq-generator?style=flat-square&color=e05c1a&labelColor=1a1f3b)](https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23842339.svg)](https://doi.org/10.5281/zenodo.23842339)
-[![Docs](https://img.shields.io/badge/docs-readthedocs-e05c1a?style=flat-square&labelColor=1a1f3b)](https://bhmarketer-trustpilot-faq.readthedocs.io)
+  (https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io)
 [![License](https://img.shields.io/badge/license-MIT-8A8A8A?style=flat-square&labelColor=1a1f3b)](LICENSE)
 
 The BHMarketer Trustpilot Removal FAQ Generator is a bot that does two jobs. It checks a Trustpilot review against the reasons Trustpilot accepts when a business reports a review and scores removal eligibility from 0 to 100, and it generates a tailored Trustpilot review removal FAQ as text, Markdown, JSON, FAQPage JSON-LD or HTML. Built by [BHMarketer.ai](https://bhmarketer.ai/trustpilot-review-removal/).
@@ -154,7 +154,7 @@ BHMarketer.ai · Trustpilot Review Removal · Remove Trustpilot Reviews · Trust
 | Hugging Face | https://huggingface.co/datasets/bhmarketer/trustpilot-removal-faq-benchmarks |
 | Kaggle | https://www.kaggle.com/datasets/bhmarketer/trustpilot-removal-faq-benchmarks |
 | Zenodo | https://zenodo.org/records/23842339 |
-| Docs | https://bhmarketer-trustpilot-faq.readthedocs.io |
+| Docs | https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io |
 | LinkedIn | https://www.linkedin.com/company/bhmarketer-ai/ |
 | X | https://x.com/bhmarketer_com |
 
