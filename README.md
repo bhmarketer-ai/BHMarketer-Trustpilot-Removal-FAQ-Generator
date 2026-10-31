@@ -101,7 +101,7 @@ console.log(render(generate(result.reasons.map((r) => r.id)), "jsonld"));
 | Terrible service, slow delivery and rude support. Would no... | none | `none` | 0 | Unlikely |
 | I will find where you live and make you pay for this. | none | `harmful-illegal` | 85 | Strong case |
 | Sarah at the front desk was rude, call her on 555-123-4567... | --staff Sarah | `personal-information` | 100 | Strong case |
-| Do not buy here. Go to www.cheaperdeals.com and use code S... | none | `advertising-promotional` | 100 | Strong case |
+| Do not buy here. Go to www.---xxxxx---.com and use code S... | none | `advertising-promotional` | 100 | Strong case |
 | I never used them but my friend said they are a scam. | none | `not-genuine` | 70 | Likely |
 | Their Manchester branch was dirty and the staff ignored me... | --no-record --location-not-exist | `not-genuine` | 85 | Strong case |
 | Ordered from ShopKing and my parcel never arrived. | --other ShopKing --wrong-business | `different-business` | 100 | Strong case |
