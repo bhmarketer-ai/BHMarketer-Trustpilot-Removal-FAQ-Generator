@@ -1,0 +1,47 @@
+name: Heartbeat
+on:
+  schedule:
+    - cron: "11 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run benchmarks and update heartbeat
+        run: |
+          RESULT=$(python - <<'PY'
+          import csv, shlex, trustpilot_faq as tf
+          rows = list(csv.DictReader(open("dataset/trustpilot_removal_benchmarks.csv")))
+          ok = 0
+          for r in rows:
+              a = tf.analyze(r["review_text"], tf.parse_args(shlex.split(r["facts"]))[1])
+              top = a["reasons"][0]["id"] if a["reasons"] else "none"
+              ok += top == r["expected_reason"] and a["band"] == r["expected_band"]
+          print(f"{ok}/{len(rows)}")
+          PY
+          )
+          {
+            echo "BHMarketer Trustpilot Removal FAQ Generator heartbeat"
+            echo "Last update: $(date -u +%Y-%m-%d)"
+            echo "Benchmark cases passed: $RESULT"
+            echo "FAQs in knowledge base: $(python -c 'import trustpilot_faq as t; print(len(t.FAQS))')"
+          } > heartbeat.txt
+          cat heartbeat.txt
+
+      - name: Commit heartbeat
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add heartbeat.txt
+          git diff --cached --quiet || git commit -m "chore: heartbeat update $(date -u +%Y-%m-%d)"
+          git push
