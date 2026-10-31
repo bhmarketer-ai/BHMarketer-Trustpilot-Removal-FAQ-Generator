@@ -151,7 +151,6 @@ BHMarketer.ai · Trustpilot Review Removal · Remove Trustpilot Reviews · Trust
 | GitHub | https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator |
 | GitHub Pages | https://bhmarketer-ai.github.io/BHMarketer-Trustpilot-Removal-FAQ-Generator/ |
 | NPM | https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator |
-| PyPI | https://pypi.org/project/bhmarketer-trustpilot-faq/ |
 | Hugging Face | https://huggingface.co/datasets/bhmarketer/trustpilot-removal-faq-benchmarks |
 | Kaggle | https://www.kaggle.com/datasets/bhmarketer/trustpilot-removal-faq-benchmarks |
 | Zenodo | https://zenodo.org/records/23842339 |
