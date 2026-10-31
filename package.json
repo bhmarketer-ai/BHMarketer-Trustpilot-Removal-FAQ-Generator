@@ -1,6 +1,6 @@
 {
   "name": "@bhmarketer-ai/trustpilot-removal-faq-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BHMarketer Trustpilot Removal FAQ Generator: checks a Trustpilot review against Trustpilot's reporting reasons, scores removal eligibility 0 to 100, and generates a tailored Trustpilot review removal FAQ as Markdown, JSON, FAQPage JSON-LD or HTML.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
