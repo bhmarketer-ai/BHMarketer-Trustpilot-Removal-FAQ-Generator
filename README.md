@@ -1,7 +1,6 @@
 # BHMarketer.ai: Trustpilot Removal FAQ Generator ⭐🛡️
 
 [![npm](https://img.shields.io/npm/v/@bhmarketer-ai/trustpilot-removal-faq-generator?style=flat-square&color=e05c1a&labelColor=1a1f3b)](https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator)
-[![PyPI](https://img.shields.io/pypi/v/bhmarketer-trustpilot-faq?style=flat-square&color=e05c1a&labelColor=1a1f3b)](https://pypi.org/project/bhmarketer-trustpilot-faq/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23842339.svg)](https://doi.org/10.5281/zenodo.23842339)
 [![Docs](https://img.shields.io/badge/docs-readthedocs-e05c1a?style=flat-square&labelColor=1a1f3b)](https://bhmarketer-trustpilot-faq.readthedocs.io)
 [![License](https://img.shields.io/badge/license-MIT-8A8A8A?style=flat-square&labelColor=1a1f3b)](LICENSE)
