@@ -18,7 +18,8 @@
         "https://www.linkedin.com/company/bhmarketer-ai/",
         "https://x.com/bhmarketer_com",
         "https://www.facebook.com/Bhmarketerai/",
-        "https://www.instagram.com/bhmarketerbymojo/"
+        "https://www.instagram.com/bhmarketerbymojo/",
+        "https://doi.org/10.5281/zenodo.23842339"        
       ]
     },
     {"@type": "Service", "name": "Trustpilot Review Removal", "url": "https://bhmarketer.ai/trustpilot-review-removal/", "provider": {"@id": "https://bhmarketer.ai/#organization"}, "description": "Guideline-based reporting of Trustpilot reviews that are harmful or illegal, contain personal information, are promotional, are not based on a genuine experience, or are about a different business. No removal, no fee."},
