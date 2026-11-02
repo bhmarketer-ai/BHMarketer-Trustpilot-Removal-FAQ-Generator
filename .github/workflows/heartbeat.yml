@@ -7,34 +7,29 @@ permissions:
   contents: write
 jobs:
   heartbeat:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Run benchmarks and update heartbeat
+      - name: Update heartbeat
         run: |
-          RESULT=$(python - <<'PY'
-          import csv, shlex, trustpilot_faq as tf
-          rows = list(csv.DictReader(open("dataset/trustpilot_removal_benchmarks.csv")))
-          ok = 0
-          for r in rows:
-              a = tf.analyze(r["review_text"], tf.parse_args(shlex.split(r["facts"]))[1])
-              top = a["reasons"][0]["id"] if a["reasons"] else "none"
-              ok += top == r["expected_reason"] and a["band"] == r["expected_band"]
-          print(f"{ok}/{len(rows)}")
+          SUMMARY=$(python - <<'PY'
+          import trustpilot_faq as tf
+          top = tf.popular(1)[0]
+          print(f"FAQs in database: {len(tf.FAQ)}")
+          print(f"Most asked question: {top['question']} ({top['popularity']}%)")
           PY
           )
           {
             echo "BHMarketer Trustpilot Removal FAQ Generator heartbeat"
             echo "Last update: $(date -u +%Y-%m-%d)"
-            echo "Benchmark cases passed: $RESULT"
-            echo "FAQs in knowledge base: $(python -c 'import trustpilot_faq as t; print(len(t.FAQS))')"
+            echo "$SUMMARY"
           } > heartbeat.txt
           cat heartbeat.txt
 
