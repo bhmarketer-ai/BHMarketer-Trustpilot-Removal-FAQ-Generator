@@ -1,8 +1,8 @@
 # BHMarketer.ai: Trustpilot Removal FAQ Generator ⭐🛡️
 
-[![npm](https://img.shields.io/npm/v/@bhmarketer-ai/trustpilot-removal-faq-generator?style=flat-square&color=e05c1a&labelColor=1a1f3b)](https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator)
+[![npm](https://img.shields.io/npm/v/@bhmarketer-ai/trustpilot-removal-faq-generator?style=flat-square&color=44cc11&labelColor=1a1f3b)](https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23842339.svg)](https://doi.org/10.5281/zenodo.23842339)
-[![Docs](https://img.shields.io/badge/docs-readthedocs-e05c1a?style=flat-square&labelColor=1a1f3b)](https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io)
+[![Docs](https://img.shields.io/badge/docs-readthedocs-44cc11?style=flat-square&labelColor=1a1f3b)](https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io)
 [![License](https://img.shields.io/badge/license-MIT-8A8A8A?style=flat-square&labelColor=1a1f3b)](LICENSE)
 
 The BHMarketer Trustpilot Removal FAQ Generator is a searchable database of 50 questions about the **BHMarketer.ai Trustpilot Review Removal Service**. Ask a question in plain words, such as "how much does it cost", "what is the TAT" or "is removal guaranteed", and it returns the best-matching answer. Every question has a popularity score, so you can see which questions people ask most. The same database builds the page FAQ section (one H2, an H3 for each question) with matching FAQPage structured data. Built by [BHMarketer.ai](https://bhmarketer.ai/trustpilot-review-removal/).
