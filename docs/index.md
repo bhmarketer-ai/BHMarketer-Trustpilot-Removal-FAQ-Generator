@@ -7,7 +7,7 @@ A searchable database of 50 questions about the BHMarketer.ai Trustpilot Review 
 ```bash
 npm install -g @bhmarketer-ai/trustpilot-removal-faq-generator
 # or
-pip install bhmarketer-trustpilot-faq
+pip install git+https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator.git
 ```
 
 ## Ask a question
