@@ -8,7 +8,7 @@
 - Page FAQ section (`output/faq-section.html`): one H2, an H3 per question, visible answers and matching FAQPage JSON-LD.
 - Page SEO settings in `trustpilot_faq/config.json` and `output/seo.json`.
 - `llms.txt` and `AGENTS.md` for AI systems and AI coding tools.
-- Python package restored (`bhmarketer-trustpilot-faq`), with tests and PyPI workflow.
+- Python package restored (install from GitHub), with tests.
 - Removed review eligibility scoring, the benchmark dataset and "no removal, no fee" wording.
 
 ## 1.0.1
