@@ -1,6 +1,6 @@
 site_name: BHMarketer Trustpilot Removal FAQ Generator
 site_url: https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io/
-site_description: 50 questions about the BHMarketer.ai Trustpilot Review Removal Service, a page FAQ section with FAQPage JSON-LD, and Trustpilot review removal eligibility scoring.
+site_description: 50 questions about the BHMarketer.ai Trustpilot Review Removal Service with popularity scores, a page FAQ section and FAQPage JSON-LD.
 site_author: BHMarketer.ai
 repo_url: https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator
 repo_name: bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator

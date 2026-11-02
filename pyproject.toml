@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "bhmarketer-trustpilot-faq"
 version = "2.0.0"
-description = "BHMarketer Trustpilot Removal FAQ Generator: 50-question FAQ about the BHMarketer.ai Trustpilot Review Removal Service with a page FAQ section and FAQPage JSON-LD, plus Trustpilot review removal eligibility scoring from 0 to 100."
+description = "BHMarketer Trustpilot Removal FAQ Generator: searchable 50-question FAQ about the BHMarketer.ai Trustpilot Review Removal Service, with popularity scores, a page FAQ section and FAQPage JSON-LD."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "BHMarketer.ai" }]

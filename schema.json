@@ -47,7 +47,7 @@
       "author": {
         "@id": "https://bhmarketer.ai/#organization"
       },
-      "description": "Answers questions about the BHMarketer.ai Trustpilot Review Removal Service from a 50-question FAQ, builds the page FAQ section with FAQPage JSON-LD, and scores Trustpilot review removal eligibility from 0 to 100 against Trustpilot reporting reasons."
+      "description": "Searchable 50-question FAQ about the BHMarketer.ai Trustpilot Review Removal Service with popularity scores, a page FAQ section and FAQPage JSON-LD."
     },
     {
       "@type": "FAQPage",

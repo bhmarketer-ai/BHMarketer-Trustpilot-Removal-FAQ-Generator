@@ -3,7 +3,7 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 Copyright (c) BHMarketer.ai
 
 The documentation in this repository (README.md, docs/, CHANGELOG.md, llms.txt),
-the generated page output (output/) and the data (dataset/*.csv,
+the generated page output (output/) and the data (dataset/trustpilot_removal_faqs.csv,
 trustpilot_faq/*.json) are licensed under the Creative Commons Attribution
 4.0 International License.
 
