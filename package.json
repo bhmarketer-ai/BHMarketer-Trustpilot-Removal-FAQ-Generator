@@ -1,28 +1,40 @@
 {
   "name": "@bhmarketer-ai/trustpilot-removal-faq-generator",
-  "version": "1.0.1",
-  "description": "BHMarketer Trustpilot Removal FAQ Generator: checks a Trustpilot review against Trustpilot's reporting reasons, scores removal eligibility 0 to 100, and generates a tailored Trustpilot review removal FAQ as Markdown, JSON, FAQPage JSON-LD or HTML.",
+  "version": "2.0.0",
+  "description": "BHMarketer Trustpilot Removal FAQ Generator: 50-question FAQ about the BHMarketer.ai Trustpilot Review Removal Service with a page FAQ section and FAQPage JSON-LD, plus Trustpilot review removal eligibility scoring from 0 to 100.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
     "tp-faq": "dist/index.js"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "trustpilot_faq/faq.json",
+    "trustpilot_faq/config.json",
+    "trustpilot_faq/rules.json",
+    "README.md",
+    "LICENSE",
+    "LICENSE-CONTENT"
+  ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && node dist/index.js ask how much does it cost && node dist/index.js analyze \"Go to www.cheaperdeals.com and use code SAVE20\" && node tools/benchmark.js"
   },
   "keywords": [
-    "trustpilot",
-    "trustpilot-review-removal",
-    "review-removal",
-    "faq-generator",
-    "faq-schema",
-    "reputation-management",
     "bhmarketer",
     "bhmarketer-ai",
+    "faq",
+    "faq-generator",
+    "faq-schema",
+    "faqpage",
     "json-ld",
-    "orm"
+    "orm",
+    "reputation-management",
+    "review-removal",
+    "seo",
+    "trustpilot",
+    "trustpilot-review-removal"
   ],
   "homepage": "https://bhmarketer.ai/trustpilot-review-removal/",
   "repository": {
@@ -32,10 +44,13 @@
   "bugs": {
     "url": "https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator/issues"
   },
-  "author": "BHMarketer.ai",
+  "author": "BHMarketer.ai (https://bhmarketer.ai)",
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

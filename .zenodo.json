@@ -1,23 +1,25 @@
 {
-  "title": "BHMarketer Trustpilot Removal FAQ Generator: Trustpilot Review Eligibility Scoring and FAQ Schema Generation",
+  "title": "BHMarketer Trustpilot Removal FAQ Generator: Trustpilot Review Removal FAQ, Page FAQ Schema and Eligibility Scoring",
   "upload_type": "software",
-  "description": "The BHMarketer Trustpilot Removal FAQ Generator checks a Trustpilot review against the five reasons Trustpilot accepts when a business reports a review (harmful or illegal, personal information, advertising or promotional, not based on a genuine experience, about a different business), scores removal eligibility from 0 to 100, lists the evidence to include, and generates a tailored Trustpilot review removal FAQ as text, Markdown, JSON, FAQPage JSON-LD or HTML. Includes identical TypeScript (NPM) and Python (PyPI) implementations, a 25-entry FAQ knowledge base and a 20-case benchmark dataset. Estimates only; Trustpilot makes the final decision. Not affiliated with Trustpilot. Built by BHMarketer.ai.",
+  "description": "The BHMarketer Trustpilot Removal FAQ Generator answers questions about the BHMarketer.ai Trustpilot Review Removal Service from a 50-question FAQ database (service overview, review eligibility, turnaround time, ordering and pricing, results and guarantees, support), builds the page FAQ section with one H2, an H3 per question and matching FAQPage JSON-LD, and checks a Trustpilot review against the five reasons Trustpilot accepts when a business reports a review, scoring removal eligibility from 0 to 100 and listing the evidence to include. Includes identical TypeScript (NPM) and Python (PyPI) implementations, a 50-entry FAQ dataset and a 20-case benchmark dataset. Estimates only; Trustpilot makes the final decision. Not affiliated with Trustpilot. Built by BHMarketer.ai.",
   "creators": [
     {
       "name": "BHMarketer.ai"
     }
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "keywords": [
     "BHMarketer.ai",
+    "Buy Trustpilot Review Removal Service",
     "Trustpilot review removal",
-    "review removal",
-    "Trustpilot guidelines",
+    "Trustpilot negative review removal",
+    "Trustpilot fake review removal",
+    "Trustpilot review removal TAT",
+    "Trustpilot reputation management",
     "FAQ generator",
     "FAQPage schema",
     "JSON-LD",
-    "online reputation management",
     "review eligibility scoring"
   ],
   "related_identifiers": [
@@ -42,9 +44,19 @@
       "scheme": "url"
     },
     {
-      "identifier": "10.5281/zenodo.23842339",
-      "relation": "isIdenticalTo",
-      "scheme": "doi"
+      "identifier": "https://huggingface.co/datasets/bhmarketer/trustpilot-removal-faq-benchmarks",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/bhmarketer/trustpilot-removal-faq-benchmarks",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
     }
   ]
 }
