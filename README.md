@@ -1,7 +1,6 @@
 # BHMarketer.ai: Trustpilot Removal FAQ Generator ⭐🛡️
 
 [![npm](https://img.shields.io/npm/v/@bhmarketer-ai/trustpilot-removal-faq-generator?style=flat-square&color=e05c1a&labelColor=1a1f3b)](https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator)
-[![PyPI](https://img.shields.io/pypi/v/bhmarketer-trustpilot-faq?style=flat-square&color=e05c1a&labelColor=1a1f3b)](https://pypi.org/project/bhmarketer-trustpilot-faq/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23842339.svg)](https://doi.org/10.5281/zenodo.23842339)
 [![Docs](https://img.shields.io/badge/docs-readthedocs-e05c1a?style=flat-square&labelColor=1a1f3b)](https://bhmarketer-trustpilot-removal-faq-generator.readthedocs.io)
 [![License](https://img.shields.io/badge/license-MIT-8A8A8A?style=flat-square&labelColor=1a1f3b)](LICENSE)
@@ -81,7 +80,7 @@ tp-faq html > faq-section.html
 
 ### Python
 ```bash
-pip install bhmarketer-trustpilot-faq
+pip install git+https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator.git
 tp-faq ask what is the tat
 tp-faq list eligibility
 ```
@@ -506,7 +505,7 @@ BHMarketer-Trustpilot-Removal-FAQ-Generator/
 ├── schema.json / .zenodo.json
 ├── mkdocs.yml / .readthedocs.yaml / docs/
 ├── heartbeat.txt
-├── .github/workflows/                # tests, npm, PyPI, heartbeat
+├── .github/workflows/                # tests, npm, heartbeat
 ├── CHANGELOG.md
 ├── LICENSE                           # MIT (code)
 └── LICENSE-CONTENT                   # CC BY 4.0 (content)
@@ -535,7 +534,6 @@ BHMarketer.ai · Buy Trustpilot Review Removal Service · Trustpilot review remo
 | GitHub | https://github.com/bhmarketer-ai/BHMarketer-Trustpilot-Removal-FAQ-Generator |
 | GitHub Pages | https://bhmarketer-ai.github.io/BHMarketer-Trustpilot-Removal-FAQ-Generator/ |
 | NPM | https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator |
-| PyPI | https://pypi.org/project/bhmarketer-trustpilot-faq/ |
 | Hugging Face | https://huggingface.co/datasets/bhmarketer/trustpilot-removal-faq-benchmarks |
 | Kaggle | https://www.kaggle.com/datasets/bhmarketer/trustpilot-removal-faq-benchmarks |
 | Zenodo | https://zenodo.org/records/23842339 |
