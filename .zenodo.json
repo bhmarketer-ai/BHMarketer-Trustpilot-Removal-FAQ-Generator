@@ -1,7 +1,7 @@
 {
   "title": "BHMarketer Trustpilot Removal FAQ Generator: Trustpilot Review Removal FAQ with Popularity Scores and FAQPage Schema",
   "upload_type": "software",
-  "description": "The BHMarketer Trustpilot Removal FAQ Generator is a searchable database of 50 questions and answers about the BHMarketer.ai Trustpilot Review Removal Service, covering the service, review eligibility, turnaround time, ordering and pricing, results and guarantees, and support. Each question has a category, keywords, common search phrases and a popularity score (0 to 100%, an estimate of how often it is asked). The database builds a page-ready FAQ section with one H2, an H3 per question and matching FAQPage JSON-LD, plus a CSV dataset, docs and an llms.txt summary. Identical TypeScript (NPM) and Python (PyPI) implementations with a CLI. Built by BHMarketer.ai.",
+  "description": "The BHMarketer Trustpilot Removal FAQ Generator is a searchable database of 50 questions and answers about the BHMarketer.ai Trustpilot Review Removal Service, covering the service, review eligibility, turnaround time, ordering and pricing, results and guarantees, and support. Each question has a category, keywords, common search phrases and a popularity score (0 to 100%, an estimate of how often it is asked). The database builds a page-ready FAQ section with one H2, an H3 per question and matching FAQPage JSON-LD, plus a CSV dataset, docs and an llms.txt summary. Identical TypeScript (NPM) and Python implementations with a CLI. Built by BHMarketer.ai.",
   "creators": [
     {
       "name": "BHMarketer.ai"
@@ -35,11 +35,6 @@
     },
     {
       "identifier": "https://www.npmjs.com/package/@bhmarketer-ai/trustpilot-removal-faq-generator",
-      "relation": "isIdenticalTo",
-      "scheme": "url"
-    },
-    {
-      "identifier": "https://pypi.org/project/bhmarketer-trustpilot-faq/",
       "relation": "isIdenticalTo",
       "scheme": "url"
     },
